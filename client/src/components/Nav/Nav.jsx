@@ -1,4 +1,6 @@
 import logo from '../../asset/images/logos/woodshoplogo.png'
+import './Nav.css'
+
 const Nav = () => {
   return (
     <nav>
