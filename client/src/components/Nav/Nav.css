@@ -1,10 +1,54 @@
 nav {
+  align-items:center;
   background-color: #2E1C07;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: 0 .5%;
   width: 100vw;
 }
 
+nav button {
+  background-color: #FDFBFB;
+  color: #614A23;
+  font-size: 2.5rem;
+  font-weight: 500;
+  font-family: 'Raleway', sans-serif;
+  padding: 8% 10%; 
+  white-space: nowrap;
+  transition: all .5s ease-in;
+}
+
+nav button:hover {
+  color: #f6eee0;
+  cursor: pointer;
+  background-color: #2E1C07;
+  border: 1px solid #f6eee0;
+}
+
 nav img {
-  width:
+  width: 13rem;
+}
+
+nav li {
+  color: #ffffff;
+  font-size: 1.6rem;
+  font-family: 'Raleway', sans-serif;
+  white-space: nowrap; 
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
+  width: 60%;
+}
+
+.ul-button-container{
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  width: 55%;
 }
