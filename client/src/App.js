@@ -1,11 +1,12 @@
 import './App.css';
 import Nav from './components/Nav/Nav';
+import Landing from './views/Landing/Landing';
 
 function App() {
   return (
-    <main >
+    <main className='app-container'>
       <Nav />
-      <h1>THE Wood Shop</h1>
+      <Landing />
     </main>
   );
 }
