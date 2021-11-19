@@ -1,3 +1,11 @@
+@font-face {
+  font-family: Mammoth;
+  font-style: regular;
+  font-weight:normal;
+  src: url('../../asset/fonts/Mammoth.ttf')
+}
+
+
 .content-wrapper {
   padding: 23rem 0 0 10rem;
   width: 50%;
@@ -35,6 +43,7 @@
 
 .landing-title {
   color: #FDFBFB;
+  font-family: Mammoth;
   font-size: 6.4rem;
   line-height: 1;
   margin-bottom: 2rem;

@@ -5,7 +5,7 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   overflow: hidden;
-  padding: 0 .5%;
+  padding: 0 2%;
   position: fixed;
   width: 100vw;
   z-index: 10;
@@ -13,24 +13,28 @@ nav {
 
 nav button {
   background-color: #FDFBFB;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   color: #614A23;
-  font-size: 2.5rem;
+  font-size: 1.6rem;
   font-weight: 500;
   font-family: 'Raleway', sans-serif;
-  padding: 8% 10%; 
+  padding: 1vw; 
+  width: 120%;
   white-space: nowrap;
   transition: all .5s;
 }
 
-nav button:hover {
+nav button:hover, nav button:active {
   color: #f6eee0;
   cursor: pointer;
   background-color: #2E1C07;
-  border: 1px solid #f6eee0;
+  border: 1px solid #C9A358;
 }
 
 nav img {
-  width: 13rem;
+  width: 15rem;
 }
 
 nav li {
@@ -52,5 +56,5 @@ nav ul {
   align-items: center;
   display: flex;
   justify-content: space-evenly;
-  width: 55%;
+  width: 65%;
 }

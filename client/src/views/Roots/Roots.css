@@ -10,28 +10,6 @@
   width: 80%;
 }
 
-/* .roots-content::before {
-  background: #C9A358;
-  content: '';
-  display: block;
-  height: 118.8%;
-  left: 0;
-  position:absolute;
-  top: -18.8%;
-  width: 1px;
-}
-
-.roots-content::after {
-  background: #C9A358;
-  content: '';
-  display: block;
-  height: 118.8%;
-  right: 0%;
-  position: absolute;
-  top: -18.8%;
-  width: 1px;
-} */
-
 .roots-page {
   align-items: center;
   background-color: ;
@@ -50,7 +28,6 @@
   line-height: 1.8;
 }
 
-
 .roots-title {
   background-color: white;
   font-size: 4rem;
@@ -59,25 +36,3 @@
   width:300px;
   position: relative;
 }
-
-/* .roots-title::before {
-  background-color: #C9A358;
-  height: 1px;
-  display: block;
-  content: '';
-  position:absolute;
-  left: -237.5%;
-  top: 50%;
-  width: 200%;
-}
-
-.roots-title::after {
-  content: "";
-  display: block;
-  width: 200%;
-  height: 1px;
-  background: #C9A358;
-  right: -237.5%;
-  top: 50%;
-  position: absolute;
-} */
