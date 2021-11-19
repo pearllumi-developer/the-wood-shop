@@ -1,35 +1,85 @@
 .card-btn {
-background-color: #C9A358;
-display: none;
-font-family: 'Raleway', sans-serif;
-font-size: 2.4rem;
-font-weight: 500;
-padding: 3%;
-
+  background-color: #c9a358;
+  position: absolute;
+  display: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 1em;
+  right: 50%;
+  transform: translateX(50%);
+  bottom: 5%;
+  white-space: nowrap;
 }
 
+.card-btn:hover, .card-btn:active {
+  color: #2e1c07;
+  background-color: #f6eee0;
+}
 
 .card-image {
   width: 20%;
   position: relative;
 }
 
-.card-image + .card-btn, .card-btn:hover {
+.card-image:hover .card-btn {
+  display: inline-block;
+}
+
+.card-image:active .card-btn {
   display: inline-block;
 }
 
 .card-image img {
   width: 100%;
+  object-fit: cover;
+
 }
 
 .card-text {
-  background-color: #614A23;
+  background-color: #614a23;
   bottom: 1.5px;
-  color: #F6EEE0;
-  font-family: 'Raleway', sans-serif;
+  color: #f6eee0;
+  font-family: "Raleway", sans-serif;
   font-size: 2.4rem;
   padding: 7% 5%;
   position: absolute;
   text-align: center;
   width: 100%;
+}
+
+.card-image:hover .card-text {
+  display: none;
+}
+
+.card-image:active .card-text {
+  display: none;
+}
+
+.hidden-text p {
+  font-size: 1.4rem;
+  font-family: "Raleway", sans-serif;
+  padding: 1em;
+}
+
+.hidden-text {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(201, 164, 89, 0.75);
+  color: #fff;
+}
+
+.card-image:hover .hidden-text {
+  display: flex;
+}
+
+.card-image:active .hidden-text {
+  display: flex;
 }

@@ -22,7 +22,7 @@ const ImageCards = () => {
     {
       photo: photoThree,
       comment: "Braiding and Styling",
-      hiddenText:"",
+      hiddenText:"Offering a range of braiding techniques from crochet, box braids, twists, and sew-ins.",
       price:0,
       button:"Book Appointment" 
     },
@@ -33,9 +33,12 @@ const ImageCards = () => {
       {data.map((item, idx) => (
         <div key={idx} className="card-image">
           <img src={item.photo} alt={item.comment} />
+          <div className='hidden-text'>
+            <p>{item.hiddenText}</p> <p>Starting Price: ${item.price}</p>
+            <button className='card-btn'>{item.button}</button>
+          </div>
           <div className='card-text'>
             <p>{item.comment}</p>
-            <button className='card-btn'>{item.button}</button>
           </div>
         </div>
       ))}

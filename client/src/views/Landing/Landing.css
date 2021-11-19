@@ -14,15 +14,17 @@
 .landing-btn {
   background: #C9A358;
   color: #FDFBFB;
+  font-family: Mammoth;
   font-size: 2.4rem;
-  padding: 3rem 4rem;
-  width: 60%;
+  padding: 1.5em;
   white-space: nowrap;
+  transition: all .5s;
 }
 
-/* .landing-btn-container {
-  width: 100%;
-} */
+.landing-btn:hover, .landing-btn:active {
+  background-color: #F6EEE0;
+  color: #2E1C07;
+}
 
 .landing-caption {
   color:#FDFBFB;
