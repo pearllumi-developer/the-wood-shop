@@ -31,8 +31,8 @@ const ImageCards = () => {
   return (
     <>
       {data.map((item, idx) => (
-        <div key={idx} className="card-image">
-          <img src={item.photo} alt={item.comment} />
+        <div key={idx} className="card-image" style={{backgroundImage: `url(${item.photo})`,backgroundSize: "cover"}}>
+          {/* <img src={item.photo} alt={item.comment} /> */}
           <div className='hidden-text'>
             <p>{item.hiddenText}</p> <p>Starting Price: ${item.price}</p>
             <button className='card-btn'>{item.button}</button>

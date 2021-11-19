@@ -3,6 +3,7 @@ import Nav from "./components/Nav/Nav";
 import Landing from "./views/Landing/Landing";
 import Roots from "./views/Roots/Roots";
 import WhatWeDo from "./views/WhatWeDo/WhatWeDo";
+import WhereWeAre from "./views/WhereWeAre/WhereWeAre";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Landing />
       <Roots />
       <WhatWeDo />
+      <WhereWeAre />
     </main>
   );
 }

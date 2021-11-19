@@ -1,0 +1,29 @@
+.icon-card {
+  display: flex;
+  flex-direction: column;
+  gap: 3em 0;
+  width: 35%;
+  padding: 5em;
+}
+
+.icon-card img {
+  width: 100%;
+}
+
+#icon-phone {
+  text-align: center;
+}
+
+.icon-word-box {
+  height: 50%;
+  font-size: 2.4rem;
+  font-family: 'Raleway', sans-serif;
+  text-align:left;
+
+}
+
+.img-container {
+  display: flex;
+  align-self: center;
+  width: 40%;
+}

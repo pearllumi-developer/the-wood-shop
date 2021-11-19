@@ -1,0 +1,37 @@
+@font-face {
+  font-family: Mammoth;
+  font-style: regular;
+  font-weight:normal;
+  src: url('../../asset/fonts/Mammoth.ttf')
+}
+
+.where-we-are-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.where-we-are-container {
+  border: 1px solid #C9A358;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5em 0;
+  position: relative;
+  width: 80%;
+}
+
+.where-we-are-container h1 {
+  background-color: white;
+  width: 13.5em;
+  font-family: Mammoth;
+  font-size: 4rem;
+  position: absolute;
+  text-align: center;
+  top:-24px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
