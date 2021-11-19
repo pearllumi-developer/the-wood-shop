@@ -8,14 +8,23 @@ const ImageCards = () => {
     {
       photo: photoOne,
       comment: "Mens, Women's, Children Cuts",
+      hiddenText: "Experience wide a range of haircut styles with one of our team members",
+      price: 0,
+      button:"Book Your Cut"
     },
     {
       photo: photoTwo,
       comment: "Beard Sculpting",
+      hiddenText:'Luxury beard sculpting with razor finish',
+      price:0,
+      button:"Book a Sculpting"
     },
     {
       photo: photoThree,
       comment: "Braiding and Styling",
+      hiddenText:"",
+      price:0,
+      button:"Book Appointment" 
     },
   ];
   console.log(data);
@@ -26,6 +35,7 @@ const ImageCards = () => {
           <img src={item.photo} alt={item.comment} />
           <div className='card-text'>
             <p>{item.comment}</p>
+            <button className='card-btn'>{item.button}</button>
           </div>
         </div>
       ))}

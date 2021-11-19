@@ -3,10 +3,9 @@ import "./Roots.css";
 const Roots = () => {
   return (
     <section className="roots-page">
-        <div className="roots-title">
-          <h1>Our Roots</h1>
-        </div>
       <div className="roots-content">
+        <h1 className='roots-title'>Our Roots</h1>
+
         <p>
           The Wood Shop (TM) was founded in 2021 by husband and wife team Marcus
           & Chastity Woodson. Marcus, an defensive line coach at Florida State
