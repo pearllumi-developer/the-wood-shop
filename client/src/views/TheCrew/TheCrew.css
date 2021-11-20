@@ -1,5 +1,21 @@
+.crew-title {
+  font-size: 4rem;
+  font-family: Mammoth;
+  margin-bottom: 10rem;
+
+}
 .crew-page {
+  align-items: center;
   background-color: #F6EEE0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 100vh;
   width: 100vw;
+}
+.the-crew-card-holder{
+  display: flex;
+  gap: 2em;
+  width: 90%;
+  height: 50%;
 }

@@ -3,8 +3,10 @@ import './TheCrew.css'
 const TheCrew = () => {
   return (
     <section className='crew-page'>
-      <h1>The Crew</h1>
+      <h1 className='crew-title' >The Crew</h1>
+      <div className='the-crew-card-holder'>
       <CrewCards />
+      </div>
     </section>
   );
 };
