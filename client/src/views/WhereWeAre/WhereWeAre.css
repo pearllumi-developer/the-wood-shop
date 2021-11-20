@@ -6,11 +6,11 @@
 }
 
 .where-we-are-page {
-  display: flex;
-  justify-content: center;
   align-items: center;
-  width: 100vw;
+  display: flex;
   height: 100vh;
+  justify-content: center;
+  width: 100vw;
 }
 
 .where-we-are-container {
@@ -25,13 +25,13 @@
 
 .where-we-are-container h1 {
   background-color: white;
-  width: 13.5em;
   font-family: Mammoth;
   font-size: 4rem;
+  left: 50%;
   position: absolute;
   text-align: center;
   top:-24px;
-  left: 50%;
   transform: translateX(-50%);
+  width: 13.5em;
   white-space: nowrap;
 }
