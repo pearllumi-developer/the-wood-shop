@@ -1,0 +1,55 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.carousel-container {
+  width: 100%;
+  margin: 10rem auto;
+  height: 50%;
+}
+
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  z-index: 10;
+}
+
+.arrow img {
+  width: 2vw;
+  transition: scale(1);
+}
+
+.arrow img:active {
+  transform: scale(0.5);
+}
+
+.next {
+  right: 0%;
+  top: 50%;
+}
+
+.prev {
+  left: 0%;
+  top: 50%;
+}
+.slide img {
+  width: 30vw;
+  height: auto;
+  margin: 0 auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.slide {
+  transform: scale(0.5);
+  transition: transform 300ms;
+  opacity: 0.5;
+}
+
+.active-slide {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #c9a358;
+}
