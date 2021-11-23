@@ -7,7 +7,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <section className="footer-container">
-      <div>
+      <div className='footer-text'>
         <p>
           The Wood Shop <br/>Inside The Tallahassee Mall next to Auntie Anne’s <br/>12345
           Tallahassee Lane Tallahassee, Florida 123456
