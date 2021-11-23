@@ -1,8 +1,8 @@
 @font-face {
   font-family: Mammoth;
   font-style: regular;
-  font-weight:normal;
-  src: url('../../asset/fonts/Mammoth.ttf')
+  font-weight: normal;
+  src: url("../../asset/fonts/Mammoth.ttf");
 }
 
 .where-we-are-page {
@@ -14,7 +14,7 @@
 }
 
 .where-we-are-container {
-  border: 1px solid #C9A358;
+  border: 1px solid #c9a358;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -25,12 +25,13 @@
 
 .where-we-are-container h1 {
   background-color: white;
+  color: #2e1c07;
   font-family: Mammoth;
   font-size: 4rem;
   left: 50%;
   position: absolute;
   text-align: center;
-  top:-24px;
+  top: -24px;
   transform: translateX(-50%);
   width: 13.5em;
   white-space: nowrap;

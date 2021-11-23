@@ -4,7 +4,7 @@ const Roots = () => {
   return (
     <section className="roots-page">
       <div className="roots-content">
-        <h1 className='roots-title'>Our Roots</h1>
+        <h1 className="roots-title">Our Roots</h1>
 
         <p>
           The Wood Shop (TM) was founded in 2021 by husband and wife team Marcus
@@ -13,16 +13,20 @@ const Roots = () => {
           Tallahassee residents, students, and their own children.
         </p>
         <p>
-          “As a kid, the barbershop was always a place that I felt closer to the
-          community... [it] offered my first rights of passage by giving me my
-          first haircut, but it also was a place where I learned many valuable
-          life lessons...” - Coach Woodson{" "}
+          <em>
+            “As a kid, the barbershop was always a place that I felt closer to
+            the community... [it] offered my first rights of passage by giving
+            me my first haircut, but it also was a place where I learned many
+            valuable life lessons...” - Coach Woodson
+          </em>
         </p>
         <p>
-          “As a kid, the barbershop was always a place that I felt closer to the
-          community... [it] offered my first rights of passage by giving me my
-          first haircut, but it also was a place where I learned many valuable
-          life lessons...” - Coach Woodson
+          <em>
+            “As a kid, the barbershop was always a place that I felt closer to
+            the community... [it] offered my first rights of passage by giving
+            me my first haircut, but it also was a place where I learned many
+            valuable life lessons...” - Coach Woodson
+          </em>
         </p>
       </div>
     </section>

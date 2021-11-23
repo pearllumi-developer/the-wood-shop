@@ -14,7 +14,7 @@ const Footer = () => {
         </p>
       </div>
       <div className='footer-logo'>
-        <img src={logo} alt="The Wood Shop logo picture" />
+        <img src={logo} alt="The Wood Shop" />
         <p>Designed by PearlLumi Creative</p>
       </div>
       <div className='footer-icons'>

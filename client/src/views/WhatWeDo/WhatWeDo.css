@@ -5,13 +5,15 @@
 }
 
 .what-we-do-title {
+  color: #2e1c07;
+  font-family: Mammoth;
   font-size: 4rem;
   text-align: center;
   padding-bottom: 6%;
 }
 
 .what-we-do-page {
-  background-color: #F6EEE0;
+  background-color: #f6eee0;
   display: flex;
   flex-direction: column;
   width: 100vw;

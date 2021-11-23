@@ -1,6 +1,6 @@
-.roots-content { 
+.roots-content {
   align-content: space-between;
-  border: 1px solid #C9A358;
+  border: 1px solid #c9a358;
   display: flex;
   gap: 3rem;
   flex-direction: column;
@@ -22,17 +22,21 @@
 
 .roots-page p {
   display: flex;
-  font-family: 'Raleway', sans-serif;
+  color: #2e1c07;
+  font-family: "Raleway", sans-serif;
   font-size: 2.2rem;
   font-weight: 500;
   line-height: 1.8;
+  padding-top: 1.5em;
 }
 
 .roots-title {
   background-color: white;
+  color: #2e1c07;
+  font-family: Mammoth;
   font-size: 4rem;
   text-align: center;
   margin: -25px auto 0 auto;
-  width:300px;
+  width: 550px;
   position: relative;
 }
