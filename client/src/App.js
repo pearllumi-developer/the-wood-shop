@@ -13,9 +13,9 @@ function App() {
     <main className="app-container">
       {/* <Nav /> */}
       {/* <Landing /> */}
-      <Roots />
+      {/* <Roots /> */}
       {/* <WhatWeDo /> */}
-      {/* <WhereWeAre /> */}
+      <WhereWeAre />
       {/* <TheCrew /> */}
       {/* <TheProof /> */}
       {/* <Footer /> */}

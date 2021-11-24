@@ -7,7 +7,7 @@
 .what-we-do-title {
   color: #2e1c07;
   font-family: Mammoth;
-  font-size: 4rem;
+  font-size: clamp(2.2rem, 1.5vw + 5.5px, 40rem);
   text-align: center;
   padding-bottom: 6%;
 }
@@ -18,4 +18,43 @@
   flex-direction: column;
   width: 100vw;
   padding: 7% 0;
+}
+
+/* -----------------------------
+-------------Tablet-------------
+-------------------------------- */
+
+@media screen and (max-width: 1025px) {
+  .what-we-do-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 5rem;
+    padding: 0 15%;
+  }
+
+}
+
+
+/* -----------------------------
+-------------Mobile-------------
+-------------------------------- */
+
+@media screen and (max-width: 480px) {
+  .what-we-do-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 5rem;
+    padding: 0 5%;
+  }
+
+  .what-we-do-title {
+    padding: 15%;
+  }
+
+  .what-we-do-page {
+  
+    padding-bottom: 15%;
+  }
 }

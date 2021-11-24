@@ -14,7 +14,8 @@
   white-space: nowrap;
 }
 
-.card-btn:hover, .card-btn:active {
+.card-btn:hover,
+.card-btn:active {
   color: #2e1c07;
   background-color: #f6eee0;
 }
@@ -23,7 +24,7 @@
   width: 25vw;
   height: 50vh;
   position: relative;
-  box-shadow: rgba(0, 0, 0, .7) 0px 14px 28px, rgba(0, 0, 0, .7) 0px 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 14px 28px, rgba(0, 0, 0, 0.7) 0px 10px 10px;
 }
 
 .card-image:hover .card-btn {
@@ -37,15 +38,18 @@
 .card-image img {
   width: 100%;
   object-fit: cover;
-
 }
 
 .card-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgba(97, 75, 35, 0.75);
   bottom: 0;
   color: #f6eee0;
   font-family: "Raleway", sans-serif;
-  font-size: 1.4rem;
+  font-size: clamp(1.6rem ,1.5vw + 3px, 2.4rem);
+  font-weight: 500;
   padding: 2em;
   position: absolute;
   text-align: center;
@@ -88,4 +92,21 @@
 
 .card-image:active .hidden-text {
   display: flex;
+}
+
+/* -----------------------------
+-------------Tablet-------------
+-------------------------------- */
+
+.card-image {
+  width: 70vw;
+}
+
+/* -----------------------------
+-------------Mobile-------------
+-------------------------------- */
+@media screen and (max-width: 480px) {
+  .card-image {
+    width: 90vw;
+  }
 }
