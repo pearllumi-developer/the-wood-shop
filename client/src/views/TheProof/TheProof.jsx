@@ -3,7 +3,7 @@ import './TheProof.css'
 
 const TheProof = () => {
   return (
-    <div className='proof-page'>
+    <div id='theProof' className='proof-page'>
       <h1>The Proof</h1>
       <ImageCarousel/>
     </div>

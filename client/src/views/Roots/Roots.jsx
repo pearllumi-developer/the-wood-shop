@@ -2,7 +2,7 @@ import "./Roots.css";
 
 const Roots = () => {
   return (
-    <section className="roots-page">
+    <section id='ourRoots' className="roots-page">
       <div className="roots-content">
         <h1 className="roots-title">Our Roots</h1>
 

@@ -1,52 +1,91 @@
 @font-face {
   font-family: Mammoth;
   font-style: regular;
-  font-weight:normal;
-  src: url('../../asset/fonts/Mammoth.ttf')
+  font-weight: normal;
+  src: url("../../asset/fonts/Mammoth.ttf");
 }
-
 
 .content-wrapper {
-  padding: 23rem 0 0 10rem;
+  padding: 15% 0 0 7%;
   width: 50%;
-  /* min-width: 37.8rem; */
+  height: auto;
 }
 .landing-btn {
-  background: #C9A358;
-  color: #FDFBFB;
+  background: #c9a358;
+  color: #fdfbfb;
   font-family: Mammoth;
-  font-size: 2.4rem;
+  font-size: clamp(1.3rem, 1vw, 2.5rem);
   padding: 1.5em;
   white-space: nowrap;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
-.landing-btn:hover, .landing-btn:active {
-  background-color: #F6EEE0;
-  color: #2E1C07;
+.landing-btn:hover,
+.landing-btn:active {
+  background-color: #f6eee0;
+  color: #2e1c07;
 }
 
 .landing-caption {
-  color:#FDFBFB;
-  font-family: 'Raleway', sans-serif;
-  font-size: 2.5rem;
+  color: #fdfbfb;
+  font-family: "Raleway", sans-serif;
+  font-size: clamp(1.8rem, 1.8vw, 4.5rem);
   line-height: 1.8;
   margin-bottom: 2rem;
-
-  width: 37.8rem;
-  
+  width: 60%;
+  min-width: 30rem;
 }
+
 .landing-container {
   background-image: url("../../asset/images/landing-imgs/HeroPicture.png");
   background-size: cover;
-  width: 100vw;
   height: 100vh;
+  min-width: 32rem;
+  width: 100vw;
 }
 
 .landing-title {
-  color: #FDFBFB;
+  color: #fdfbfb;
   font-family: Mammoth;
-  font-size: 6.4rem;
+  font-size: clamp(2.6rem, 4.5vw, 6.4rem);
   line-height: 1;
   margin-bottom: 2rem;
+}
+
+/* -----------------------------
+-------------Table-------------
+-------------------------------- */
+@media screen and (max-width: 1030px) {
+  .landing-container {
+    background-image: url("../../asset/images/landing-imgs/HeroTable.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 63.3% center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+  }
+}
+
+/* -----------------------------
+-------------Mobile-------------
+-------------------------------- */
+@media screen and (max-width: 480px) {
+
+  .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+
+  .landing-container {
+    background-image: url("../../asset/images/landing-imgs/HeroPhone.png");
+  }
+  .landing-btn-container {
+    display: flex;
+    justify-content: center;
+    width: 85vw;
+  }
 }
