@@ -2,9 +2,9 @@
   align-content: space-between;
   border: 1px solid #c9a358;
   display: flex;
-  gap: 3rem;
+  gap: 3em;
   flex-direction: column;
-  height: auto;
+  height: max-content;
   padding: 0 9% 4% 9%;
   position: relative;
   width: 80%;
@@ -12,7 +12,6 @@
 
 .roots-page {
   align-items: center;
-  background-color: ;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -24,7 +23,7 @@
   display: flex;
   color: #2e1c07;
   font-family: "Raleway", sans-serif;
-  font-size: 2.2rem;
+  font-size: clamp(1.6rem, 1.5vw + 1px, 2.2rem);
   font-weight: 500;
   line-height: 1.8;
   padding-top: 1.5em;
@@ -34,9 +33,31 @@
   background-color: white;
   color: #2e1c07;
   font-family: Mammoth;
-  font-size: 4rem;
+  font-size: clamp(2.2rem, 2.5vw + 4px, 4rem);
   text-align: center;
   margin: -25px auto 0 auto;
-  width: 550px;
+  width: calc(60% + 16px);
   position: relative;
+}
+
+/* -----------------------------
+-------------Mobile-------------
+-------------------------------- */
+
+@media screen and (max-width: 480px) {
+  .roots-title {
+    margin: -5vw auto 0 auto;
+    width: 150px;
+    position: relative;
+  }
+  .roots-page {
+    margin: 40% 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+
+  .roots-page {
+    margin: 40rem 0;
+  }
 }
