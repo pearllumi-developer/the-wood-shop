@@ -10,6 +10,18 @@
 
 .proof-page h1 {
   color: #2e1c07;
-  font-size: 4rem;
+  font-size: clamp(2.2rem, 3vw - 3px, 4rem);
   font-family: Mammoth;
+}
+
+@media screen and (max-width: 480px){
+  .proof-page {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    padding: 2rem;
+    width: 100vw;
+  }
 }

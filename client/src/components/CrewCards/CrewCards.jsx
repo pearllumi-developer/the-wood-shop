@@ -8,27 +8,27 @@ const CrewCards = () => {
   const crews = [
     {
       photo: Suarez,
-      name: "Omar Suarez",
+      name: 'Andre "Fifty" B.',
       link: null,
-      alt: "Omar Suarez's instagram account"
+      alt: "Andre B.'s instagram account"
     },
     {
       photo: Taylor,
-      name: "Sean Taylor",
+      name: "Kevin K.",
       link: null,
-      alt: "Sean Taylor's instagram account"
+      alt: "Kevin K.'s instagram account"
     },
     {
       photo: Johnson,
-      name: "Jamal Johnson",
+      name: "Ali C.",
       link: null,
-      alt: "Jamal Johnson's instagram account"
+      alt: "Ali C.'s instagram account"
     },
     {
       photo: Suarez,
-      name: "Omar Suarez",
+      name: "Dante H.",
       link: null,
-      alt: "Omar Suarez's instagram account"
+      alt: "Dante H.'s instagram account"
     },
   ];
 

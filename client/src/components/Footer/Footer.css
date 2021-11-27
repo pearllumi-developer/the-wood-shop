@@ -39,9 +39,32 @@
   display: flex;
   flex-direction: row;
   justify-content: end;
-  gap: .5em;
+  gap: 0.5em;
 }
 
 .footer-icons img {
   width: 10%;
+}
+
+@media screen and (max-width: 480px) {
+  .footer-text {
+    display: none;
+  }
+
+  .footer-container {
+    display: block;
+    width: 100vw;
+    height: fit-content;
+    text-align: center;
+  }
+
+  .footer-logo {
+    width: 100%;
+  }
+
+  .footer-icons {
+    justify-content: center;
+    margin: 3rem 0;
+    gap: 1em;
+  }
 }

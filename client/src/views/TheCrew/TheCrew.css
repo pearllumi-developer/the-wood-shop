@@ -1,22 +1,37 @@
 .crew-title {
-  color:  #2e1c07;
-  font-size: 4rem;
+  color: #2e1c07;
+  font-size: clamp(2.2rem, 3vw - 3px, 4rem);
   font-family: Mammoth;
   margin-bottom: 10rem;
-
 }
+
 .crew-page {
   align-items: center;
-  background-color: #F6EEE0;
+  background-color: #f6eee0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100vh;
   width: 100vw;
 }
-.the-crew-card-holder{
+
+.the-crew-card-holder {
   display: flex;
   gap: 2em;
   width: 90%;
   height: 50%;
+}
+
+@media screen and (max-width: 1369px) {
+  .the-crew-card-holder {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .crew-page {
+    justify-content: flex-start;
+    padding: 10rem 0; 
+    height: max-content;
+    
+  }
 }

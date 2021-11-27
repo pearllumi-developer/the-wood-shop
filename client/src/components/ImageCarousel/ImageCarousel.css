@@ -53,3 +53,25 @@
 .slick-dots li.slick-active button:before {
   color: #c9a358;
 }
+
+@media screen and (max-width: 480px) {
+
+  .arrow img {
+    width: calc(8vw - 2px);
+  }
+  
+  .carousel-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5rem auto;
+    height: 50%;
+  }
+
+  .slide img {
+    width: 60vw;
+    height: auto;
+    margin: auto auto;
+  }
+  
+}

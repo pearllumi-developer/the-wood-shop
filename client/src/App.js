@@ -12,13 +12,13 @@ function App() {
   return (
     <main className="app-container">
       {/* <Nav /> */}
-      {/* <Landing /> */}
-      {/* <Roots /> */}
-      {/* <WhatWeDo /> */}
+      <Landing />
+      <Roots />
+      <WhatWeDo />
       <WhereWeAre />
-      {/* <TheCrew /> */}
-      {/* <TheProof /> */}
-      {/* <Footer /> */}
+      <TheCrew />
+      <TheProof />
+      <Footer />
     </main>
   );
 }

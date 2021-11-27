@@ -7,18 +7,18 @@ const IconCards = () => {
   const vectors = [
     {
       icon: phone,
-      phone: "555-555-5555",
+      phone: "(850) 739-2209",
       comment: "The Wood Shop's business number"
     },
     {
       icon: clock,
-      time: ["Mon - Thurs: 9am - 8pm", "Fri: 9am - 8pm", "Sun: 10am - 6pm"],
+      time: [<p><strong>Mon - Thu</strong> 11am - 7pm</p>, <p><strong>Fri - Sat</strong> 11am - 8pm</p>, <p><strong>Sun</strong> 12pm - 6pm</p>],
       comment:'The Wood Shop hours of operations',
     },
     {
       icon: home,
       address:
-        "Inside The Tallahassee Mall Next to Auntie Anne's 12345 Tallahassee Lane",
+        <p><strong>Governor's Square Mall</strong> 1500 Apalachee Pkwy, <br/> Tallahassee, FL 32301 <br/> Next to JCPenny</p>,
       comment: 'The Wood Shops location in the Tallahassee Mall'
     },
   ];

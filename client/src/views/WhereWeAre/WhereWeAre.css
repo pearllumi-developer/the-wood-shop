@@ -11,6 +11,7 @@
   height: 100vh;
   justify-content: center;
   width: 100vw;
+  min-width: 32rem;
 }
 
 .where-we-are-container {
@@ -27,12 +28,32 @@
   background-color: white;
   color: #2e1c07;
   font-family: Mammoth;
-  font-size: 4rem;
+  font-size: clamp(2.2rem, 3vw - 3px, 4rem);
   left: 50%;
   position: absolute;
   text-align: center;
   top: -24px;
   transform: translateX(-50%);
-  width: 13.5em;
+  width: calc(45% + 23px);
   white-space: nowrap;
+}
+
+@media screen and (max-width: 480px) {
+  .where-we-are-container h1 {
+    white-space: normal;
+  }
+
+  .where-we-are-container {
+    border: 1px solid #c9a358;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 5em 0;
+    position: relative;
+    width: 80%;
+  }
+
+  .where-we-are-page {
+    padding: 40rem 0;
+  }
 }
