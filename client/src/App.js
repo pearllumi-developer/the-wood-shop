@@ -15,7 +15,7 @@ function App() {
 
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth < 480) {
+      if (window.innerWidth < 768) {
         setScreen(true);
       } else {
         setScreen(false);
