@@ -25,7 +25,7 @@ nav button {
   align-items: center;
   justify-content: center;
   color: #614A23;
-  font-size: 1.6rem;
+  font-size: clamp(1.2rem, 1vw + 2px, 1.6rem);
   font-weight: 500;
   font-family: 'Raleway', sans-serif;
   padding: 1vw; 
@@ -47,7 +47,7 @@ nav img {
 
 nav li {
   color: #ffffff;
-  font-size: 1.6rem;
+  font-size: clamp(1.2rem, 1vw + 2px, 1.6rem);
   font-family: 'Raleway', sans-serif;
   white-space: nowrap; 
 }
