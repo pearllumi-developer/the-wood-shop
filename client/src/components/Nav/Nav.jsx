@@ -5,15 +5,15 @@ const Nav = () => {
   return (
     <nav>
       <div>
-        <img src={logo} alt="The Wood Shop Barber Shop's Logo" />
+        <a href='#landing'><img src={logo} alt="The Wood Shop Barber Shop's Logo" /></a>
       </div>
       <div className='ul-button-container'>
         <ul>
-          <li>Our Roots</li>
-          <li>What We Do</li>
-          <li>Where We Are</li>
-          <li>The Crew</li>
-          <li>The Proof</li>
+          <li><a href='#ourRoots'>Our Roots</a></li>
+          <li><a href='#whatWeDo'>What We Do</a></li>
+          <li><a href='#whereWeAre'>Where We Are</a></li>
+          <li><a href='#theCrew'>The Crew</a></li>
+          <li><a href='#theProof'>The Proof</a></li>
         </ul>
         <div>
           <button>BOOK YOUR CUT</button>

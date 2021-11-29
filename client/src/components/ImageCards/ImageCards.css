@@ -1,0 +1,112 @@
+.card-btn {
+  background-color: #c9a358;
+  display: none;
+  box-shadow: 0 10px 6px -6px #000;
+  bottom: 5%;
+  border: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  position: absolute;
+  padding: 1em;
+  right: 50%;
+  transform: translateX(50%);
+  white-space: nowrap;
+}
+
+.card-btn:hover,
+.card-btn:active {
+  color: #2e1c07;
+  background-color: #f6eee0;
+}
+
+.card-image {
+  width: 25vw;
+  height: 50vh;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 14px 28px, rgba(0, 0, 0, 0.7) 0px 10px 10px;
+}
+
+.card-image:hover .card-btn {
+  display: inline-block;
+}
+
+.card-image:active .card-btn {
+  display: inline-block;
+}
+
+.card-image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(97, 75, 35, 0.75);
+  bottom: 0;
+  color: #f6eee0;
+  font-family: "Raleway", sans-serif;
+  font-size: clamp(1.6rem ,1.5vw + 3px, 2.4rem);
+  font-weight: 500;
+  padding: 2em;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  max-height: 25%;
+}
+
+.card-image:hover .card-text {
+  display: none;
+}
+
+.card-image:active .card-text {
+  display: none;
+}
+
+.hidden-text p {
+  font-size: 1.4rem;
+  font-family: "Raleway", sans-serif;
+  padding: 1em;
+}
+
+.hidden-text {
+  align-items: center;
+  background-color: rgba(201, 164, 89, 0.75);
+  bottom: 0;
+  display: none;
+  color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  left: 0;
+  padding: 0 4em;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.card-image:hover .hidden-text {
+  display: flex;
+}
+
+.card-image:active .hidden-text {
+  display: flex;
+}
+
+/* -----------------------------
+-------------Tablet-------------
+-------------------------------- */
+
+.card-image {
+  width: 70vw;
+}
+
+/* -----------------------------
+-------------Mobile-------------
+-------------------------------- */
+@media screen and (max-width: 480px) {
+  .card-image {
+    width: 90vw;
+  }
+}
