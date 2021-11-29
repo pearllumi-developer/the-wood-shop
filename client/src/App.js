@@ -7,18 +7,20 @@ import TheProof from "./views/TheProof/TheProof";
 import WhatWeDo from "./views/WhatWeDo/WhatWeDo";
 import WhereWeAre from "./views/WhereWeAre/WhereWeAre";
 import Footer from './components/Footer/Footer'
+import MobileNav from "./components/MobileNav/MobileNav";
 
 function App() {
   return (
     <main className="app-container">
       {/* <Nav /> */}
-      <Landing />
-      <Roots />
-      <WhatWeDo />
-      <WhereWeAre />
-      <TheCrew />
-      <TheProof />
-      <Footer />
+      <MobileNav/>
+      {/* <Landing /> */}
+      {/* <Roots /> */}
+      {/* <WhatWeDo /> */}
+      {/* <WhereWeAre /> */}
+      {/* <TheCrew /> */}
+      {/* <TheProof /> */}
+      {/* <Footer /> */}
     </main>
   );
 }
