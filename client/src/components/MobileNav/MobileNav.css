@@ -1,0 +1,152 @@
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: #F6EEE0;
+  margin: 5px;
+}
+.burger {
+  cursor: pointer;
+  left: 5px;
+  position: absolute;
+  z-index: 0;
+}
+
+.burger-close {
+  top: 37px;
+  right: 15px;
+  position: absolute;
+  z-index: 0;
+}
+.burger-close div {
+  width: 25px;
+  height: 3px;
+  background-color: #F6EEE0;
+  margin: 5px;
+}
+
+.lineA{
+  transform: rotate(-45deg) translate(-5px,6px);
+}
+.lineB{
+  opacity: 0;
+}
+.lineC{
+  transform: rotate(45deg)translate(-5px,-6px);
+}
+
+.mobile-nav-btn {
+  color: #614A23;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin: 2rem 0 2rem 3rem ;
+  padding: 1.5rem 3rem;
+}
+
+.mobile-nav-btn:hover, .mobile-nav-btn:active {
+  color: #f6eee0;
+  cursor: pointer;
+  background-color: #2E1C07;
+  border: 1px solid #C9A358;
+}
+
+.mobile-nav-container {
+  position: fixed;
+  display: flex;
+  width: 100vw;
+  max-height: 12vh;
+  align-items: center;
+  justify-content: center;
+  z-index: 30;
+}
+
+.mobile-nav-container p {
+  font-size: 1.4rem;
+  color: #f6eee0;
+  font-family: "Raleway", sans-serif;
+  margin-left: 3rem;
+
+  
+}
+.mobile-nav-icons img {
+  width: 3rem;
+}
+.mobile-nav-icons {
+  display: flex;
+  gap: 0 1.5em;
+  margin-bottom: 3rem;
+  margin-left: 3rem;
+}
+
+.mobile-nav-logo img {
+  display: flex;
+  width: 15rem;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.mobile-nav-logo-inner img {
+  width: 12rem;
+}
+
+.mobile-nav-links h3 {
+  color: #2e1c07;
+  font-family: Mammoth;
+  font-size: 1.4rem;
+  margin: 2rem 0;
+  margin-left: 3rem;
+}
+
+.mobile-nav-links li {
+  color: #f6eee0;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  margin-left: 3rem;
+}
+
+.mobile-nav-links {
+  opacity: 0;
+}
+
+.fade {
+  animation: navLinkFade 0.5s ease forwards .3s
+
+}
+
+@keyframes navLinkFade{
+  from{
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.mobile-nav-phone {
+  margin-top: 3rem;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  transform: translateX(-100%);
+  height: 100vh;
+  background-color: #614a23;
+  transition: .3s;
+}
+
+.mobile-nav-active {
+  transform: translateX(0)
+}
+ul {
+  list-style: none;
+}
