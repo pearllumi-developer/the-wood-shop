@@ -20,7 +20,7 @@ const Landing = () => {
           </p>
         </div>
         <div className="landing-btn-container">
-          <button className="landing-btn">BOOK YOUR CUT</button>
+          <button className="landing-btn" onClick={() => window.location.href="https://online.getsquire.com/book/the-wood-shop-tallahassee"}>BOOK YOUR CUT</button>
         </div>
       </div>
     </section>

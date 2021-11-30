@@ -1,12 +1,14 @@
 import DefaultImage from '../../asset/images/crew-images/default-image.png'
 // import instagram from "../../asset/images/logos/instagram.png";
+import Fifty from '../../asset/images/crew-images/Fifty.png';
+import Dante from '../../asset/images/crew-images/Dante.png';
 import "./CrewCards.css";
 
 const CrewCards = () => {
   const crews = [
     {
-      photo: DefaultImage,  
-      name: 'Andre "Fifty" B.',
+      photo: Fifty,  
+      name: "Fifty Kutts",
       link: null,
       alt: "Andre B.'s instagram account"
     },
@@ -23,7 +25,7 @@ const CrewCards = () => {
       alt: "Ali C.'s instagram account"
     },
     {
-      photo: DefaultImage,
+      photo: Dante,
       name: "Dante H.",
       link: null,
       alt: "Dante H.'s instagram account"
