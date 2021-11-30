@@ -23,6 +23,7 @@
 .card-image {
   width: 25vw;
   height: 50vh;
+  min-height: 30rem;
   position: relative;
   box-shadow: rgba(0, 0, 0, 0.7) 0px 14px 28px, rgba(0, 0, 0, 0.7) 0px 10px 10px;
 }

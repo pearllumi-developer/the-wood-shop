@@ -14,6 +14,14 @@
 #icon-phone {
   text-align: center;
 }
+a.icon-phone, a.icon-address {
+  color: #2e1c07 !important;
+}
+
+a.icon-phone:hover, a.icon-address:hover {
+  color: #c9a358 !important;
+  cursor: pointer;
+}
 
 .icon-word-box {
   display: flex;
