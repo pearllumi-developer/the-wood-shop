@@ -16,6 +16,7 @@
 }
 a.icon-phone, a.icon-address {
   color: #2e1c07 !important;
+  white-space: nowrap;
 }
 
 a.icon-phone:hover, a.icon-address:hover {

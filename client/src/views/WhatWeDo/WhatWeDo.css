@@ -1,8 +1,10 @@
 .what-we-do-card-container {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 0 5%;
-  gap: 5rem
+  display: grid;
+  /* margin: 0 auto; */
+  gap: 2.5em 0;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: repeat(3, 1fr);
+  place-items: center;
 }
 
 .what-we-do-title {
@@ -26,8 +28,9 @@
 -------------Tablet-------------
 -------------------------------- */
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 768px) {
   .what-we-do-card-container {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;

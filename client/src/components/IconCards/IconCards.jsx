@@ -37,7 +37,7 @@ const IconCards = () => {
           href="https://maps.apple.com/maps?q=1500apalachee+pkwy+tallahassee+fl+32301"
         >
           <p>
-            <strong>Governor's Square Mall</strong> 1500 Apalachee Pkwy, <br />{" "}
+            <strong>Governor's Square Mall</strong> <br />1500 Apalachee Pkwy, <br />
             Tallahassee, FL 32301 <br /> Next to JCPenny
           </p>
         </a>
