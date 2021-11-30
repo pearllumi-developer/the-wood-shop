@@ -8,9 +8,9 @@
 .where-we-are-page {
   align-items: center;
   display: flex;
-  height: 100vh;
   justify-content: center;
   width: 100vw;
+  min-height: 90vh;
   min-width: 32rem;
 }
 
@@ -19,9 +19,10 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 5em 0;
+  padding: 3em 0;
   position: relative;
   width: 80%;
+  height: 50%;
 }
 
 .where-we-are-container h1 {
@@ -38,7 +39,7 @@
   white-space: nowrap;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1025px) {
   .where-we-are-container h1 {
     white-space: normal;
   }

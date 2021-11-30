@@ -57,14 +57,14 @@ nav ul {
   flex-direction: row;
   justify-content: space-evenly;
   list-style: none;
-  width: 60%;
+  width: 70%;
 }
 
 .ul-button-container{
   align-items: center;
   display: flex;
   justify-content: space-evenly;
-  width: 65%;
+  width: 70%;
 }
 
 

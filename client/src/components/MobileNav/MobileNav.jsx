@@ -76,16 +76,17 @@ const MobileNav = () => {
           <img src={FaceBook} alt="icon for FB" />
           <img src={Yelp} alt="icon for reviews" />
         </div>
-        <div>
+        <div><a href="https://maps.apple.com/maps?q=1500apalachee+pkwy+tallahassee+fl+32301">
           <p>
             <strong>Governor's Square Mall</strong>
           </p>
           <p>1500 Apalachee Pkwy</p>
           <p>Tallahassee, FL 32301</p>
           <p>Next to JCPenny</p>
+          </a>
         </div>
         <div className="mobile-nav-phone">
-          <p>(850) 739-2209</p>
+          <a href="tel:8507392209"><p>(850) 739-2209</p></a>
         </div>
       </div>
     </div>

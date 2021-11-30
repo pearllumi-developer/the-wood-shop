@@ -2,8 +2,9 @@
   position: relative;
   width: 60%;
   height: 60%;
+  min-height: 30rem;
   min-width: 29rem;
-  min-height: 29rem;
+  /* min-height: 29rem; */
   border: 1px solid #C9A358;
 }
 
@@ -28,10 +29,10 @@
   font-weight: 500;
 }
 
-@media screen and (max-width: 1030px)  {
+@media (max-width: 1366px) and (orientation: landscape) {
   .crew-card-body {
     position: relative;
-    width: 90%;
-    /* height: 700px; */
+    min-width: 60%;
+    min-height: 60rem;
   }
 }

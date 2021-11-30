@@ -39,7 +39,7 @@
 .landing-container {
   background-image: url("../../asset/images/landing-imgs/HeroPicture.png");
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
   min-width: 32rem;
   width: 100vw;
 }
@@ -55,10 +55,16 @@
 /* -----------------------------
 -------------Table-------------
 -------------------------------- */
+
+/* @media screen and (orientation: landscape) {
+  .landing-container {
+    height: auto;
+  } */
+/* } */
 @media screen and (max-width: 1030px) {
   .landing-container {
     background-image: url("../../asset/images/landing-imgs/HeroTable.png");
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: 63.3% center;
     display: flex;
@@ -72,13 +78,11 @@
 -------------Mobile-------------
 -------------------------------- */
 @media screen and (max-width: 480px) {
-
   .content-wrapper {
     display: flex;
     flex-direction: column;
     position: relative;
   }
-
 
   .landing-container {
     background-image: url("../../asset/images/landing-imgs/HeroPhone.png");

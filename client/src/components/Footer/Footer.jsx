@@ -8,10 +8,11 @@ const Footer = () => {
   return (
     <section className="footer-container">
       <div className='footer-text'>
-        <p>
+        <a href="https://maps.apple.com/maps?q=1500apalachee+pkwy+tallahassee+fl+32301"><p>
           The Wood Shop <br/>Inside The Tallahassee Mall next to Auntie Anne’s <br/>12345
           Tallahassee Lane Tallahassee, Florida 123456
         </p>
+        </a>
       </div>
       <div className='footer-logo'>
         <img src={logo} alt="The Wood Shop" />
