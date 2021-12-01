@@ -59,6 +59,7 @@
 }
 
 .overlay button {
+  color: #614a23;
   font-family: "Raleway", sans-serif;
   font-size: clamp(1.2rem, 1vw + 2px, 1.6rem);
   font-weight: bold;
