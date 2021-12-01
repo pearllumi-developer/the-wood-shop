@@ -1,29 +1,35 @@
 import { useEffect, useState } from "react";
 import Slide from "react-slick";
-import temp from "../../asset/images/carousel/temp.png";
-import fade from "../../asset/images/carousel/fade.png";
-import mirror from "../../asset/images/carousel/mirror.png";
-import shave from "../../asset/images/carousel/shave.png";
 import nextArrow from "../../asset/images/logos/nextarrow.png";
 import prevArrow from "../../asset/images/logos/prevarrow.png";
+
+import proof1 from '../../asset/images/carousel/proof1.png'
+import proof2 from '../../asset/images/carousel/proof2.png'
+import proof3 from '../../asset/images/carousel/proof3.png'
+import proof4 from '../../asset/images/carousel/proof4.jpg'
+import proof5 from '../../asset/images/carousel/proof5.jpg'
 import "./ImageCarousel.css";
 
 const pictures = [
   {
-    photo: fade,
+    photo: proof2,
     alt: "Display a men fade cut",
   },
   {
-    photo: mirror,
-    alt: "Barber reflection in the mirror",
+    photo: proof3,
+    alt: "Barber using razor for line ups",
   },
   {
-    photo: shave,
-    alt: "Barber applying saving cream on a clients neck",
+    photo: proof5,
+    alt: "Barber doing women haircut",
   },
   {
-    photo: temp,
-    alt: "Barber giving a temp to a client",
+    photo: proof4,
+    alt: "Barber giving a kid's cuts",
+  },
+  {
+    photo: proof1,
+    alt: "Barber doing clipper work",
   },
 ];
 

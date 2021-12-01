@@ -1,7 +1,8 @@
 import DefaultImage from '../../asset/images/crew-images/default-image.png'
-import instagram from "../../asset/images/logos/instagram.png";
+// import instagram from "../../asset/images/logos/instagram.png";
 import Fifty from '../../asset/images/crew-images/Fifty.png';
 import Dante from '../../asset/images/crew-images/Dante.png';
+import Kelvin from '../../asset/images/crew-images/Kelvin.png';
 import "./CrewCards.css";
 
 const CrewCards = () => {
@@ -10,18 +11,21 @@ const CrewCards = () => {
       photo: Fifty,  
       name: "Fifty Kutts",
       link: null,
+      button:'BOOK WITH FIFTY',
       alt: "Andre B.'s instagram account"
     },
     {
-      photo: DefaultImage,
+      photo: Kelvin,
       name: "Kevin K.",
       link: null,
+      button:'BOOK WITH KEVIN',
       alt: "Kevin K.'s instagram account"
     },
     {
       photo: Dante,
       name: "Dante H.",
       link: null,
+      button:'BOOK WITH DANTE',
       alt: "Dante H.'s instagram account"
     },
   ];
@@ -32,9 +36,11 @@ const CrewCards = () => {
     <div key={idx} className='crew-card-body' style={{backgroundImage: `url(${crew.photo})`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
       <div className='crew-name-box'>
         <span>{crew.name}</span>
-        <img src={instagram} alt={crew.alt} />
-
+        {/* <img src={instagram} alt={crew.alt} /> */}
       </div>
+        <div className='overlay'>
+          <button>{crew.button}</button>
+        </div>
     </div>
   ))}
   </>

@@ -37,6 +37,7 @@
   .the-crew-card-holder {
     align-items: center;
     flex-direction: column;
+    gap: 5rem 0;
   }
 
   .crew-page {

@@ -6,7 +6,7 @@
 }
 
 .content-wrapper {
-  padding: 15% 0 0 7%;
+  padding: 17% 0 0 9%;
   width: 50%;
   height: auto;
 }
@@ -14,8 +14,8 @@
   background: #c9a358;
   color: #fdfbfb;
   font-family: Mammoth;
-  font-size: clamp(1.3rem, 1vw, 2.5rem);
-  padding: 1.5em;
+  font-size: clamp(1.3rem, 2vw - 1px, 2.4rem);
+  padding: 1.5em 2em;
   white-space: nowrap;
   transition: all 0.5s;
 }
@@ -32,13 +32,14 @@
   font-size: clamp(1.8rem, 1.8vw, 4.5rem);
   line-height: 1.8;
   margin-bottom: 2rem;
-  width: 60%;
+  width: 80%;
   min-width: 30rem;
 }
 
 .landing-container {
-  background-image: url("../../asset/images/landing-imgs/HeroPicture.png");
+  background-image: url("../../asset/images/landing-imgs/Hero.png");
   background-size: cover;
+  background-color: white;
   min-height: 100vh;
   min-width: 32rem;
   width: 100vw;
@@ -63,10 +64,10 @@
 /* } */
 @media screen and (max-width: 1030px) {
   .landing-container {
-    background-image: url("../../asset/images/landing-imgs/HeroTable.png");
+    background-image: url("../../asset/images/landing-imgs/Hero.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 63.3% center;
+    background-position: 69% center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -85,7 +86,7 @@
   }
 
   .landing-container {
-    background-image: url("../../asset/images/landing-imgs/HeroPhone.png");
+    background-image: url("../../asset/images/landing-imgs/Hero.png");
   }
   .landing-btn-container {
     display: flex;

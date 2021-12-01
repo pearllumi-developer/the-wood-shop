@@ -38,7 +38,7 @@ const IconCards = () => {
         >
           <p>
             <strong>Governor's Square Mall</strong> <br />1500 Apalachee Pkwy, <br />
-            Tallahassee, FL 32301 <br /> Next to JCPenny
+            Tallahassee, FL 32301 <br /> Next to JCPenney
           </p>
         </a>
       ),
@@ -65,7 +65,7 @@ const IconCards = () => {
             </div>
           )}
           {item.address && (
-            <div className="icon-word-box">
+            <div id='home-address' className="icon-word-box">
               <p>{item.address}</p>
             </div>
           )}

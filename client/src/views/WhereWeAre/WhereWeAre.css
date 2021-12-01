@@ -10,8 +10,8 @@
   display: flex;
   justify-content: center;
   width: 100vw;
-  min-height: 90vh;
-  min-width: 32rem;
+  min-height: 100vh;
+  padding: 10rem 0;
 }
 
 .where-we-are-container {
@@ -39,22 +39,19 @@
   white-space: nowrap;
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 768px) {
   .where-we-are-container h1 {
     white-space: normal;
+    top: -13px;
   }
 
   .where-we-are-container {
-    border: 1px solid #c9a358;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    padding: 5em 0;
+    /* padding: 5em 8em; */
     position: relative;
-    width: 80%;
+    min-width: 28.9rem;
   }
 
-  .where-we-are-page {
-    padding: 40rem 0;
-  }
 }
