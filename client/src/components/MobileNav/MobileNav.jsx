@@ -12,13 +12,6 @@ const MobileNav = () => {
     setIsOpen(!isOpen);
   };
 
-  // const handleAnimation = () => {
-  //   const navLinks = document.querySelectorAll('mobile-nav-links li')
-  //   navLinks.forEach((link, idx) => {
-  //     link.style.animation = `navLinkFade 0.5s ease forwards ${idx / 7 + 2}s`
-  //   })
-  // }
-
   return (
     <div className="mobile-nav-container">
       <div className="burger" onClick={toggleSlide}>

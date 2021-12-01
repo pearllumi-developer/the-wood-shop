@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import Nav from "./components/Nav/Nav";
 import Landing from "./views/Landing/Landing";
 import Roots from "./views/Roots/Roots";
