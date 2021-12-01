@@ -50,8 +50,9 @@ const IconCards = () => {
     <>
       {vectors.map((item, idx) => (
         <div key={idx} className="icon-card">
-          <div className="img-container">
-            <img src={item.icon} alt={item.comment} />
+          
+          <div className="img-container" style={{backgroundImage: `url(${item.icon})`, backgroundSize: '50%', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
+            {/* <img src={item.icon} alt={item.comment} /> */}
           </div>
 
           {item.phone && (

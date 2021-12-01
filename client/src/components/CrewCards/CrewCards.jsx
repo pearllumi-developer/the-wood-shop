@@ -1,4 +1,3 @@
-import DefaultImage from '../../asset/images/crew-images/default-image.png'
 // import instagram from "../../asset/images/logos/instagram.png";
 import Fifty from '../../asset/images/crew-images/Fifty.png';
 import Dante from '../../asset/images/crew-images/Dante.png';

@@ -82,6 +82,7 @@
 
 .mobile-nav-logo img {
   display: flex;
+  position: static;
   width: 15rem;
   padding: 1rem;
   margin: 0 auto;
