@@ -14,7 +14,7 @@ const Footer = () => {
       </div>
       <div className='footer-logo'>
         <img src={logo} alt="The Wood Shop" />
-        <p>Designed by PearlLumi Creative</p>
+        <a href='https://pearllumi.co'><p>Designed by PearlLumi Creative</p></a>
       </div>
       <div className='footer-icons'>
         <img src={Instagram} onClick={() => window.location.href="https://www.instagram.com/thewoodshop.club/"} alt="link to instagram account" />
