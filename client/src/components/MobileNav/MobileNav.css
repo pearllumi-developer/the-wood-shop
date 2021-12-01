@@ -73,6 +73,7 @@
   width: 3rem;
 }
 .mobile-nav-icons {
+  cursor: pointer;
   display: flex;
   gap: 0 1.5em;
   margin-bottom: 3rem;

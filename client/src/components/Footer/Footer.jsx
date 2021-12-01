@@ -17,8 +17,8 @@ const Footer = () => {
         <p>Designed by PearlLumi Creative</p>
       </div>
       <div className='footer-icons'>
-        <img src={Instagram} alt="link to instagram account" />
-        <img src={FaceBook} alt="link to instagram account" />
+        <img src={Instagram} onClick={() => window.location.href="https://www.instagram.com/thewoodshop.club/"} alt="link to instagram account" />
+        <img src={FaceBook} onClick={() => window.location.href="https://www.facebook.com/The-Wood-Shop-100656319135582"} alt="link to instagram account" />
         <img src={Yelp} alt="link to yelp reviews account" />
       </div>
     </section>

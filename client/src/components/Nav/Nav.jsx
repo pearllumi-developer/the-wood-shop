@@ -16,7 +16,7 @@ const Nav = () => {
           <li><a href='#theProof'>The Proof</a></li>
         </ul>
         <div>
-          <button onClick={() => window.location.href="https://online.getsquire.com/book/the-wood-shop-tallahassee/professional/fifty-kutts"}>BOOK YOUR CUT</button>
+          <button onClick={() => window.location.href="https://online.getsquire.com/book/the-wood-shop-tallahassee/professional"}>BOOK YOUR CUT</button>
         </div>
       </div>
     </nav>

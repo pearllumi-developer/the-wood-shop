@@ -10,21 +10,21 @@ const CrewCards = () => {
     {
       photo: Fifty,  
       name: "Fifty Kutts",
-      link: null,
+      link: "fifty-kutts",
       button:'BOOK WITH FIFTY',
       alt: "Andre B.'s instagram account"
     },
     {
       photo: Kelvin,
       name: "Kevin K.",
-      link: null,
+      link: "kelvin-kimble-1",
       button:'BOOK WITH KEVIN',
       alt: "Kevin K.'s instagram account"
     },
     {
       photo: Dante,
       name: "Dante H.",
-      link: null,
+      link: "dante-hall",
       button:'BOOK WITH DANTE',
       alt: "Dante H.'s instagram account"
     },
@@ -39,7 +39,7 @@ const CrewCards = () => {
         {/* <img src={instagram} alt={crew.alt} /> */}
       </div>
         <div className='overlay'>
-          <button>{crew.button}</button>
+          <button onClick={() => window.location.href=`https://online.getsquire.com/book/the-wood-shop-tallahassee/professional/${crew.link}`}>{crew.button}</button>
         </div>
     </div>
   ))}
