@@ -11,28 +11,15 @@ import MobileNav from "./components/MobileNav/MobileNav";
 import "./App.css";
 
 function App() {
-  const [screen, setScreen] = useState(false);
 
-  useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth < 769) {
-        setScreen(true);
-      } else {
-        setScreen(false);
-      }
-    };
-    window.addEventListener("resize", handleResize);
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
   return (
     <main className="app-container">
-      {screen ? <MobileNav /> : <Nav />}
+      <MobileNav />
+      <Nav />
       <Landing />
       <Roots />
       <WhatWeDo />
-      {screen ? <WhereWeAre /> : ""}
+      <WhereWeAre />
       <TheCrew />
       <TheProof />
       <Footer />

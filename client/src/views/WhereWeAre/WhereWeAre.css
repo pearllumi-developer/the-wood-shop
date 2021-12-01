@@ -54,4 +54,8 @@
     min-width: 33.9rem;
   }
 
+  .where-we-are-page {
+    display: none;
+}
+
 }
