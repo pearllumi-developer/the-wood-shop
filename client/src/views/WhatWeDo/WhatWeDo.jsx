@@ -1,4 +1,4 @@
-import ImageCards from "../../components/ImageCards/ImageCards";
+import ServiceCard from "../../components/ServiceCards/ServiceCard";
 import "./WhatWeDo.css";
 
 const WhatWeDo = () => {
@@ -9,7 +9,7 @@ const WhatWeDo = () => {
         <h1>What We Do</h1>
       </div>
       <div className='what-we-do-card-container'>
-        <ImageCards />
+        <ServiceCard />
       </div>
     </section>
   );

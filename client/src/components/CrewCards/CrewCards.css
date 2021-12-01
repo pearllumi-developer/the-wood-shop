@@ -1,17 +1,18 @@
 .crew-card-body {
   position: relative;
-  width: 60%;
-  height: 60%;
+  width: 100%;
+  padding-top: 40%;
+  height: 0;
   min-height: 30rem;
-  min-width: 29rem;
-  border: 1px solid #C9A358;
+  border: 1px solid #c9a358;
 }
 
 .crew-name-box {
   align-items: center;
   background-color: rgba(77, 60, 31, 0.75);
   bottom: 0;
-  border-top: 1px solid #C9A358;
+  border-top: 1px solid #c9a358;
+  font-family: "Raleway", sans-serif;
   display: flex;
   justify-content: space-between;
   padding: 2em;
@@ -20,19 +21,57 @@
   height: 20%;
 }
 
+.crew-card-body:hover .crew-name-box {
+  opacity: 0;
+}
+
+.crew-card-body:active .crew-name-box {
+  opacity: 0;
+}
+
 .crew-name-box img {
   width: 20%;
 }
 .crew-name-box span {
-  color: #F6EEE0;
+  color: #f6eee0;
   font-size: 2.4rem;
   font-weight: 500;
 }
 
-@media (max-width: 1366px) and (orientation: landscape) {
+.overlay {
+  display: flex;
+  color: #614a23;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(77, 60, 31, 0.75);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 30;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.overlay:hover, .overlay:active {
+  opacity: 1;
+}
+
+.overlay button {
+  font-family: "Raleway", sans-serif;
+  font-size: clamp(1.2rem, 1vw + 2px, 1.6rem);
+  font-weight: bold;
+  padding: 1em 2.5em;
+}
+
+@media screen and (max-width: 768px) {
   .crew-card-body {
-    position: relative;
-    min-width: 60%;
-    min-height: 60rem;
+    padding-top: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .crew-card-body {
+    border: 1px solid #c9a358;
   }
 }

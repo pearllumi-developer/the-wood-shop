@@ -22,10 +22,22 @@
   height: 50%;
 }
 
-@media screen and (max-width: 1369px) {
+@media screen and (max-width:1024px){
+  .crew-page {
+    align-items: center;
+    background-color: #f6eee0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 60vh;
+    width: 100vw;
+  }
+}
+@media screen and (max-width: 768px) {
   .the-crew-card-holder {
     align-items: center;
     flex-direction: column;
+    gap: 5rem 0;
   }
 
   .crew-page {

@@ -15,7 +15,7 @@ const Landing = () => {
         </div>
         <div className="landing-caption">
           <p>
-            Creative communities, creating vibes, and serving up culture, one
+            Engaging our community, creating <br/>good vibes, and serving up culture, <br/>one
             cut at a time.
           </p>
         </div>
