@@ -32,7 +32,7 @@ function App() {
       <Landing />
       <Roots />
       <WhatWeDo />
-      <WhereWeAre />
+      {screen ? <WhereWeAre /> : ""}
       <TheCrew />
       <TheProof />
       <Footer />
