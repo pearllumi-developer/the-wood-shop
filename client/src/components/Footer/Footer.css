@@ -13,6 +13,7 @@
   font-family: "Raleway", sans-serif;
   font-size: 1.4rem;
   white-space: nowrap;
+  width: 20%;
 }
 
 .footer-logo {
@@ -36,9 +37,11 @@
   font-size: 1.4rem;
   position: absolute;
   white-space: nowrap;
+  text-align: center;
 }
 
 .footer-icons {
+  cursor: pointer;
   display: flex;
   flex-direction: row;
   justify-content: center;

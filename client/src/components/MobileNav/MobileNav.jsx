@@ -69,11 +69,11 @@ const MobileNav = () => {
           </ul>
         </div>
         <div>
-          <button className="mobile-nav-btn">BOOK YOUR CUT</button>
+          <button className="mobile-nav-btn" onClick={() => window.location.href="https://online.getsquire.com/book/the-wood-shop-tallahassee/professional"}>BOOK YOUR CUT</button>
         </div>
         <div className="mobile-nav-icons">
-          <img src={Instagram} alt="icon for IG" />
-          <img src={FaceBook} alt="icon for FB" />
+          <img src={Instagram} onClick={() => window.location.href="https://www.instagram.com/thewoodshop.club/"} alt="icon for IG" />
+          <img src={FaceBook} onClick={() => window.location.href="https://www.facebook.com/The-Wood-Shop-100656319135582"} alt="icon for FB" />
           <img src={Yelp} alt="icon for reviews" />
         </div>
         <div><a href="https://maps.apple.com/maps?q=1500apalachee+pkwy+tallahassee+fl+32301">
