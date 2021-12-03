@@ -3,11 +3,16 @@ a:link {
   text-decoration: none;
 }
 
+a:hover {
+  color: #c9a358 !important;
+}
+
 a:visited {
   color: #ffffff;
 }
+
 nav {
-  align-items:center;
+  align-items: center;
   background-color: rgba(44, 27, 7, 0.9);
   display: flex;
   flex-direction: row;
@@ -20,25 +25,26 @@ nav {
 }
 
 nav button {
-  background-color: #FDFBFB;
+  background-color: #fdfbfb;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: #614A23;
+  color: #614a23;
   font-size: clamp(1.2rem, 1vw + 2px, 1.6rem);
   font-weight: 500;
-  font-family: 'Raleway', sans-serif;
-  padding: 1vw; 
+  font-family: "Raleway", sans-serif;
+  padding: 1vw;
   width: 120%;
   white-space: nowrap;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
-nav button:hover, nav button:active {
+nav button:hover,
+nav button:active {
   color: #f6eee0;
   cursor: pointer;
-  background-color: #2E1C07;
-  border: 1px solid #C9A358;
+  background-color: #2e1c07;
+  border: 1px solid #c9a358;
 }
 
 nav img {
@@ -48,9 +54,10 @@ nav img {
 nav li {
   color: #ffffff;
   font-size: clamp(1.2rem, 1vw + 2px, 1.6rem);
-  font-family: 'Raleway', sans-serif;
-  white-space: nowrap; 
+  font-family: "Raleway", sans-serif;
+  white-space: nowrap;
 }
+
 
 nav ul {
   display: flex;
@@ -60,17 +67,15 @@ nav ul {
   width: 70%;
 }
 
-.ul-button-container{
+.ul-button-container {
   align-items: center;
   display: flex;
   justify-content: space-evenly;
   width: 70%;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   nav {
     display: none;
   }
 }
-
-
