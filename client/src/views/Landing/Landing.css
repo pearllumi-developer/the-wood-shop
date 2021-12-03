@@ -12,6 +12,7 @@
 }
 .landing-btn {
   background: #c9a358;
+  cursor: pointer;
   color: #fdfbfb;
   font-family: Mammoth;
   font-size: clamp(1.3rem, 2vw - 1px, 2.4rem);
