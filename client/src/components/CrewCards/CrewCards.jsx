@@ -15,10 +15,10 @@ const CrewCards = () => {
     },
     {
       photo: Kelvin,
-      name: "Kevin K.",
+      name: "Kelvin K.",
       link: "kelvin-kimble-1",
-      button:'BOOK WITH KEVIN',
-      alt: "Kevin K.'s instagram account"
+      button:'BOOK WITH KElVIN',
+      alt: "Kelvin K.'s instagram account"
     },
     {
       photo: Dante,
