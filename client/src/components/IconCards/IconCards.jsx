@@ -8,8 +8,8 @@ const IconCards = () => {
     {
       icon: phone,
       phone: (
-        <a className="icon-phone" href="tel:8507392209">
-          <p>(850) 739-2209</p>
+        <a className="icon-phone" href="tel:8507392209" id="icon-phone">
+          (850) 739-2209
         </a>
       ),
       comment: "The Wood Shop's business number",
@@ -32,15 +32,11 @@ const IconCards = () => {
     {
       icon: home,
       address: (
-        <a
-          className="icon-address"
-          href="https://maps.apple.com/maps?q=1500apalachee+pkwy+tallahassee+fl+32301"
-        >
-          <p>
-            <strong>Governor's Square Mall</strong> <br />1500 Apalachee Pkwy, <br />
-            Tallahassee, FL 32301 <br /> Next to JCPenney
-          </p>
-        </a>
+        <p>
+          <strong>Governor's Square Mall</strong> <br />
+          1500 Apalachee Pkwy, <br />
+          Tallahassee, FL 32301 <br /> Next to JCPenney
+        </p>
       ),
       comment: "The Wood Shops location in the Tallahassee Mall",
     },
@@ -50,24 +46,34 @@ const IconCards = () => {
     <>
       {vectors.map((item, idx) => (
         <div key={idx} className="icon-card">
-          
-          <div className="img-container" style={{backgroundImage: `url(${item.icon})`, backgroundSize: '50%', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
-            {/* <img src={item.icon} alt={item.comment} /> */}
-          </div>
+          <div
+            className="img-container"
+            style={{
+              backgroundImage: `url(${item.icon})`,
+              backgroundSize: "50%",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+            }}
+          ></div>
 
           {item.phone && (
             <div className="icon-word-box">
-              <p id="icon-phone">{item.phone}</p>
+              {item.phone}
             </div>
           )}
           {item.time && (
             <div className="icon-word-box">
-              <p>{item.time[0]}</p> <p>{item.time[1]}</p> <p>{item.time[2]}</p>
+              <>{item.time[0]}</> <>{item.time[1]}</> <>{item.time[2]}</>
             </div>
           )}
           {item.address && (
-            <div id='home-address' className="icon-word-box">
-              <p>{item.address}</p>
+            <div id="home-address" className="icon-word-box">
+              <a
+                className="icon-address"
+                href="https://maps.apple.com/maps?q=1500apalachee+pkwy+tallahassee+fl+32301"
+              >
+                {item.address}
+              </a>
             </div>
           )}
         </div>
